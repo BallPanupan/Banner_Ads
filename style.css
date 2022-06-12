@@ -1,0 +1,75 @@
+body {
+    margin: 0px;
+}
+.banner-header {
+    width: 100%;
+    background-position: center;
+}
+
+.banner-bottom {
+    background-position: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+.in-banner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background-image: url('./assets/img/Banner_backgroung.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+a.in-banner {
+    height: 100%;
+}
+
+.in-banner .banner-left {
+    /* height: 100%; */
+    margin: 0px 10px;
+}
+
+.in-banner .banner-center {
+    /* height: 100%; */
+    margin: 0px 10px;
+}
+
+.in-banner .banner-right {
+    /* height: 100%; */
+    margin: 0px 10px;
+}
+
+.in-banner img {
+    max-height: 60px;
+    width: 100%;
+}
+
+
+.content {
+    height: 1200px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .in-banner {
+        justify-content: center;
+        align-self: center;
+    }
+
+    .in-banner img {
+        width: 100%;
+    }
+
+    .in-banner .banner-left {
+        display: none;
+    }
+
+    .in-banner .banner-right {
+        display: none;
+    }
+}
