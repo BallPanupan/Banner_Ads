@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
     
-
     <title>Banner 60px</title>
 </head>
 <body>
@@ -30,11 +28,33 @@
         </a>
     </div>
 
-    <div class="content">
+    <div class="ads-form">
+
+        <form action="javascript:void(0)">
+            <div>
+                <input type="text" placeholder="background">
+            </div>
+            <div>
+                <input type="text" placeholder="banner-center">
+            </div>
+            <div>
+                <input type="text" placeholder="banner-left">
+            </div>
+            <div>
+                <input type="text" placeholder="banner-right">
+            </div>
+            <div>
+                <input type="text" placeholder="url">
+            </div>
+        </form>
 
     </div>
 
-    <div class="banner-bottom ">
+    <div class="banner-bottom" id="banner-bottom">
+
+        <div class="banner-absolute" onclick="hidBannerBottom()">
+            <img src="./assets/img/close.png" alt="">
+        </div>
 
         <a href="#" class="in-banner">
             <div class="banner-left">
@@ -55,6 +75,6 @@
 
 
 
-
+    <script src="index.js"></script>
 </body>
 </html>

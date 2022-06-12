@@ -4,6 +4,21 @@ body {
 .banner-header {
     width: 100%;
     background-position: center;
+    position: relative;
+}
+
+.banner-absolute {
+    position: absolute;
+    background-color: white;
+    width: 18px;
+    height: 18px;
+    opacity: 0.6;
+    right: 0px;
+    cursor: pointer;
+}
+
+.banner-absolute img {
+    width: 100%;
 }
 
 .banner-bottom {
@@ -31,7 +46,7 @@ a.in-banner {
 
 .in-banner .banner-left {
     /* height: 100%; */
-    margin: 0px 10px;
+    margin: 0px 20px;
 }
 
 .in-banner .banner-center {
@@ -41,7 +56,7 @@ a.in-banner {
 
 .in-banner .banner-right {
     /* height: 100%; */
-    margin: 0px 10px;
+    margin: 0px 20px;
 }
 
 .in-banner img {
@@ -72,4 +87,19 @@ a.in-banner {
     .in-banner .banner-right {
         display: none;
     }
+}
+
+
+.ads-form {
+    margin: 100px;
+}
+
+.ads-form input[type="text"] {
+    width: 600px;
+    height: 30px;
+    font-size: 17px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid;
+    padding: 3px 10px;
 }
