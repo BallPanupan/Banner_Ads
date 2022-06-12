@@ -1,14 +1,9 @@
 const bannerBottom = document.getElementById('banner-bottom');
-
 let bannerbackground = document.getElementsByClassName('in-banner');
-
 let bannerLeft = document.getElementsByClassName('banner-left');
 let bannerCenter = document.getElementsByClassName('banner-center');
 let bannerRight = document.getElementsByClassName('banner-right');
-
 let bannerUrl = document.getElementsByClassName('banner-center');
-
-
 
 function hidBannerBottom() {
     bannerBottom.style.display = "none";
@@ -17,11 +12,9 @@ function hidBannerBottom() {
 function updateForm(){
     let dataForm  = {
         background : document.getElementById('banner_input_background').value,
-
         bannerLeft : document.getElementById('banner_input_left').value,
         bannerCenter : document.getElementById('banner_input_center').value,
         bannerright : document.getElementById('banner_input_right').value,
-
         bannerUrl : document.getElementById('banner_input_url').value
     }
 
